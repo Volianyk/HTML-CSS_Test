@@ -1,0 +1,69 @@
+/*-------header-------*/
+.w-1252 {
+    width: 1252px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    background-color: rgba(239, 240, 243, 1);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.logo {
+    display: flex;
+    align-items: baseline;
+    margin: 26px 300px 0 0;
+
+}
+
+.logo h1 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #001858;
+}
+
+.logo h1 span {
+    color: #6246EA;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav a {
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.bmac {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 17px;
+    gap: 10px;
+    border-radius: 4px;
+    background: #6246EA;
+    color: rgba(255, 255, 254, 1);
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 50px;
+}
