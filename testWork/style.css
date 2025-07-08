@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
 body {
     font-family: "Plus Jakarta Sans", sans-serif;
 }
@@ -88,11 +90,12 @@ nav a {
     color: #2B2C34;
     font-size: 64px;
     font-weight: 700;
+    text-transform: capitalize;
 
 }
 
 .section-one p {
-    width: 652px;
+    width: 664px;
     color: #9A9494;
     font-size: 20px;
     font-weight: 400;
@@ -104,7 +107,7 @@ nav a {
     width: 444px;
     height: 67px;
     padding: 21px 200px 21px 25px;
-    font-size: 16px;
+    font-size: 20px;
     border: none;
     background-color: white;
     color: black;
@@ -112,6 +115,15 @@ nav a {
     margin-right: 20px;
     outline: none;
 }
+
+input::placeholder {
+    color: #C0C0C0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 
 .form-subscribe input[type="submit"] {
     border-radius: 8px;
@@ -138,7 +150,7 @@ nav a {
 .categories-header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     align-items: center;
 }
 
@@ -202,7 +214,7 @@ nav a {
 
 .section-three {
     width: 100%;
-    height: 2344px;
+    height: 2504px;
     display: flex;
 }
 
@@ -210,6 +222,8 @@ nav a {
     display: flex;
     flex-direction: column;
     gap: 80px;
+    align-items: center;
+    padding-top: 80px;
 }
 
 
@@ -245,6 +259,7 @@ nav a {
     color: #2B2C34;
     font-size: 20px;
     font-weight: 700;
+    text-transform: capitalize;
 }
 
 .author {
@@ -272,3 +287,69 @@ nav a {
     font-size: 14px;
     font-weight: 400;
 }
+
+.more-article {
+    width: 165px;
+    height: 64px;
+    display: flex;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 80px;
+}
+
+/*-------main section subscribe-------*/
+.section-subscribe {
+    width: 100%;
+    height: 453px;
+    background: #EFF0F3;
+}
+
+.section-subscribe-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 58px auto;
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 254, 1); /* або свій колір */
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    padding-top: 23px;
+}
+
+.section-subscribe-content h3 {
+    color: #2B2C34;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.section-subscribe-content p {
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 10px 0 30px 0;
+}
+
+
