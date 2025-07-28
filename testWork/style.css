@@ -2,23 +2,32 @@
 
 body {
     font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0;
+    overflow-y: scroll;
 }
 
+
 /*-------header-------*/
-.w-1252 {
-    width: 1252px;
+.container {
+    max-width: 1440px;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 header {
+    position: fixed;
+    top: 0;
     width: 100%;
-    padding: 20px 0;
+}
+
+.header-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 26px 95px 25px 95px;
     background-color: rgba(239, 240, 243, 1);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -77,6 +86,10 @@ nav a {
     height: 900px;
     background-color: #EFF0F3;;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 95px;
+    margin-top: 80px;
 }
 
 .left-side {
@@ -124,7 +137,6 @@ input::placeholder {
     line-height: normal;
 }
 
-
 .form-subscribe input[type="submit"] {
     border-radius: 8px;
     background: #6246EA;
@@ -142,9 +154,8 @@ input::placeholder {
     width: 100%;
     height: 500px;
     background-color: #EFF0F3;;
-    font-family: "Plus Jakarta Sans", sans-serif;
     display: flex;
-
+    padding: 0 96px;
 }
 
 .categories-header {
@@ -209,7 +220,6 @@ input::placeholder {
     font-weight: 700;
 }
 
-
 /*-------main section three-------*/
 
 .section-three {
@@ -218,14 +228,13 @@ input::placeholder {
     display: flex;
 }
 
-.section-three-content {
+.section-three-container {
     display: flex;
     flex-direction: column;
     gap: 80px;
     align-items: center;
-    padding-top: 80px;
+    padding: 80px 94px;
 }
-
 
 .featured-cards {
     width: 100%;
@@ -314,15 +323,15 @@ input::placeholder {
     background: #EFF0F3;
 }
 
-.section-subscribe-content {
+.section-subscribe-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 58px auto;
+    padding: 58px 0;
 }
 
-.icon-wrapper {
+.mail-icon-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -333,7 +342,7 @@ input::placeholder {
     padding-top: 23px;
 }
 
-.section-subscribe-content h3 {
+.section-subscribe-container h3 {
     color: #2B2C34;
     font-size: 36px;
     font-style: normal;
@@ -342,7 +351,7 @@ input::placeholder {
     text-transform: capitalize;
 }
 
-.section-subscribe-content p {
+.section-subscribe-container p {
     color: #C0C0C0;
     text-align: center;
     font-size: 20px;
@@ -352,4 +361,91 @@ input::placeholder {
     margin: 10px 0 30px 0;
 }
 
+/*-------footer-------*/
+footer {
+    background-color: #E4E5E9;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1252px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.brand-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.footer-brand {
+    max-width: 284px;
+}
+
+.footer-brand p {
+    color: #2B2C34;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+
+.footer-links {
+    display: flex;
+    gap: 95px;
+    flex-wrap: wrap;
+
+}
+
+.footer-links h3 {
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.footer-links li, address p {
+    margin-bottom: 20px;
+}
+
+.footer-links a, address p {
+    color: #2B2C34;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+hr {
+    height: 1px;
+    color: #C0C0C0;
+    margin-top: 30px;
+}
+
+footer .copyright {
+    color: #2B2C34;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: flex-start;
+    margin: 26px 0;
+}
 
